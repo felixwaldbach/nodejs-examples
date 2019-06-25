@@ -1,0 +1,33 @@
+version: '3.1'
+
+services:
+  #device-server:
+  #  image: nodejs-redis-device-server-example
+  #  depends_on:
+  #    - redis-server
+
+  #device-client:
+  #  image: nodejs-redis-device-client-example
+  #  depends_on:
+  #    - redis-server
+  #    - device-server
+
+  #redis-server:
+  #  image: redis
+  #  volumes:
+  #    - "./redis-data:/data"
+  #  restart: always
+  #  logging:
+  #    driver: none
+  #  depends_on:
+  #    - cassandra-server
+
+  cassandra-server:
+    image: cassandra:latest
+    volumes:
+      - "./cassandra-data:/var/lib/cassandra"
+    restart: always
+    logging:
+      driver: none
+    ports:
+      - 9042:9042

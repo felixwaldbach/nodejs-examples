@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-cassandra-example",
+  "version": "1.0.0",
+  "description": "Node JS Cassandra Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Waldbach",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.0.1",
+    "cassandra-driver": "^4.1.0"
+  }
+}

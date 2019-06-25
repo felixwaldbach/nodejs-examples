@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-redis-pub-example",
+  "version": "1.0.0",
+  "description": "Node JS Redis Publish Client Example Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Waldbach",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^2.0.3",
+    "redis": "^2.8.0"
+  }
+}

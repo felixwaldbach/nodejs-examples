@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-rss-emitter-example",
+  "version": "1.0.0",
+  "description": "This is an example project for a Node.js RSS Emitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Waldbach",
+  "license": "ISC",
+  "dependencies": {
+    "rss-feed-emitter": "^2.0.1"
+  }
+}

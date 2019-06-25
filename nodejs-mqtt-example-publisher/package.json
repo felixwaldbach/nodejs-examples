@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-mqtt-example-publisher",
+  "version": "1.0.0",
+  "description": "This is an example MQTT Publisher for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Felix Waldbach",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.18.8"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "lettersort",
+  "version": "1.0.0",
+  "description": "Input letters and output words",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "Felix Waldbach",
+  "license": "ISC"
+}
