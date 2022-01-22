@@ -9,7 +9,7 @@
   "author": "Felix Waldbach",
   "license": "ISC",
   "dependencies": {
-    "nanoid": "^2.0.3",
+    "nanoid": "^3.1.31",
     "redis": "^2.8.0"
   }
 }
